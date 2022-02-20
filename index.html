@@ -10,9 +10,11 @@
     <script type="text/javascript">
         function showit()
         {
-            alert("Hello World");
+            var talert=document.getElementById("att").value;
+            alert(talert);
         }
     </script>
+    <textarea id="att" rows="10" cols="20"></textarea>
     <input type="submit" value="Click Me" onclick="showit()">
 </body>
 </html>
