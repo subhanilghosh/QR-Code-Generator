@@ -10,11 +10,39 @@
     <script type="text/javascript">
         function showit()
         {
-            document.getElementById("att").src="https://cdn.pixabay.com/photo/2020/09/16/18/39/icon-5577198_960_720.png";
-            
+            var timg=document.getElementById("timage");
+            var ttext=document.getElementById("toption").value;
+            if (ttext=="tulip")
+
+            {
+                timg.src="https://cdn.pixabay.com/photo/2017/03/30/18/38/tulip-2189317_960_720.jpg"
+            }
+
+            else if (ttext=="lily")
+
+            {
+                timg.src="https://cdn.pixabay.com/photo/2015/04/19/08/33/flower-729514_960_720.jpg"
+            }
+
+            else if (ttext=="sunflower")
+
+            {
+                timg.src="https://cdn.pixabay.com/photo/2016/01/08/05/24/sunflower-1127174_960_720.jpg"
+            }
+
+            else
+            {
+                alert("Picture not available!");
+            }
         }
     </script>
-    <img src="" id="att">
+    <img src="" id="timage">
+    <select id="toption">
+        <option value="tulip">Tulip</option>
+        <option value="lily">Lily</option>
+        <option value="sunflower">Sunflower</option>
+        <option value="cosmea">Cosmea</option>
+    </select>
     <input type="submit" value="Click Me" onclick="showit()">
 </body>
 </html>
