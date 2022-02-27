@@ -51,8 +51,8 @@
   }
   
   body {
-    background-color: #342d34;
-   color: white;
+    background-color: #6495ED;
+   color: #e2e7f0;
     font-family: var(--bodyFontFamily), var(--bodyFontFamilyFallback);
     font-size: var(--bodyFontSize);
     font-weight: var(--bodyFontWeight);
@@ -177,7 +177,7 @@
   }
   
   input[type="submit"] {
-  background-color: #d75821;
+  background-color: #2F4F4F;
   color: var(--loginSubmitColor);
   font-weight: 700;
   text-transform: uppercase;
@@ -185,7 +185,7 @@
   
   input[type="submit"]:focus,
   input[type="submit"]:hover {
-    background-color: #d75821;
+    background-color: #483D8B;
   }
   
   

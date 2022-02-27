@@ -9,7 +9,7 @@
 </head>
 <body>
     <script type="text/javascript">
-        function genQR()
+        function generateQR()
         {
             var gapi="https://chart.googleapis.com/chart?chf=bg,s,65432100&cht=qr&chs=";
             var myimg=document.getElementById("img");
@@ -51,7 +51,7 @@
         }
     </script>
     <div class="grid">
-        <h2 align="center">Qr Code Generator</h2>
+        <h2 align="center">QR Code Generator</h2>
         <center>
         <img src="" id="img"></center>
 
@@ -65,7 +65,7 @@
         <br><br>
         <textarea placeholder="Enter Your Text" id="qrtext"></textarea>
         <br><br>
-        <input type="submit" value="Generate" onclick="genQR()">
+        <input type="submit" value="Generate" onclick="generateQR()">
 
         
         
